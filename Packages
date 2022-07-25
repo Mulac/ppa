@@ -3,14 +3,15 @@ Version: 0.1.0
 Architecture: amd64
 Maintainer: Calum Wallbridge
 Installed-Size: 2079
-Depends: libc6 (>= 2.34), libxcb1 (>= 1.11.1)
+Depends: libxcb1 (>= 1.11.1), libc6 (>= 2.34)
 Filename: ./clipd_0.1.0_amd64.deb
-Size: 509172
-MD5sum: 13742dcbb66475b788a1d9c7c9be1cc6
-SHA1: 99837ba4e5a3521dd66fd2145ab13d2f7db02380
-SHA256: 1914bef38339d0a2aa59e657f3318ca38f70332004c25fd71442b684ff17ad11
+Size: 509068
+MD5sum: 491365a8d19e253a17ef72a1ae96321f
+SHA1: 9815c5429013a89ec7d8d2f28f0a69e9454b4698
+SHA256: b8826ecaae7c4aa65c386ea3286da16387e53455dbada75c4e2589d6ceafdc3e
 Priority: optional
-Description: [generated from Rust crate clipd]
+Description: A slightly smart clipboard tool - leverage the filesystem to persist across
+ machines after shutdown.
  # clipd
  A slightly smart clipboard using the filesystem under ~/.clipd to persist after
  shutdown.
